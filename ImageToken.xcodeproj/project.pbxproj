@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84BB1CAD14A4442B00CE74C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB1CAC14A4442B00CE74C7 /* UIKit.framework */; };
+		84BB1CAF14A4442B00CE74C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB1CAE14A4442B00CE74C7 /* Foundation.framework */; };
+		84BB1CB514A4442B00CE74C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84BB1CB314A4442B00CE74C7 /* InfoPlist.strings */; };
+		84BB1CB714A4442B00CE74C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB1CB614A4442B00CE74C7 /* main.m */; };
+		84BB1CBB14A4442B00CE74C7 /* ImageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB1CBA14A4442B00CE74C7 /* ImageAppDelegate.m */; };
+		84BB1CBE14A4442B00CE74C7 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB1CBD14A4442B00CE74C7 /* ImageViewController.m */; };
+		84BB1CC114A4442B00CE74C7 /* ImageViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BB1CBF14A4442B00CE74C7 /* ImageViewController_iPhone.xib */; };
+		84BB1CC414A4442B00CE74C7 /* ImageViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BB1CC214A4442B00CE74C7 /* ImageViewController_iPad.xib */; };
+		84BB1CCC14A4442B00CE74C7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB1CCB14A4442B00CE74C7 /* SenTestingKit.framework */; };
+		84BB1CCD14A4442B00CE74C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB1CAC14A4442B00CE74C7 /* UIKit.framework */; };
+		84BB1CCE14A4442B00CE74C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BB1CAE14A4442B00CE74C7 /* Foundation.framework */; };
+		84BB1CD614A4442B00CE74C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84BB1CD414A4442B00CE74C7 /* InfoPlist.strings */; };
+		84BB1CD914A4442B00CE74C7 /* ImageTokenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BB1CD814A4442B00CE74C7 /* ImageTokenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84BB1CCF14A4442B00CE74C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84BB1C9F14A4442B00CE74C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BB1CA714A4442B00CE74C7;
+			remoteInfo = ImageToken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84BB1CA814A4442B00CE74C7 /* ImageToken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageToken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BB1CAC14A4442B00CE74C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84BB1CAE14A4442B00CE74C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84BB1CB214A4442B00CE74C7 /* ImageToken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageToken-Info.plist"; sourceTree = "<group>"; };
+		84BB1CB414A4442B00CE74C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84BB1CB614A4442B00CE74C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84BB1CB814A4442B00CE74C7 /* ImageToken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageToken-Prefix.pch"; sourceTree = "<group>"; };
+		84BB1CB914A4442B00CE74C7 /* ImageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageAppDelegate.h; sourceTree = "<group>"; };
+		84BB1CBA14A4442B00CE74C7 /* ImageAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageAppDelegate.m; sourceTree = "<group>"; };
+		84BB1CBC14A4442B00CE74C7 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		84BB1CBD14A4442B00CE74C7 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		84BB1CC014A4442B00CE74C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageViewController_iPhone.xib; sourceTree = "<group>"; };
+		84BB1CC314A4442B00CE74C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageViewController_iPad.xib; sourceTree = "<group>"; };
+		84BB1CCA14A4442B00CE74C7 /* ImageTokenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageTokenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BB1CCB14A4442B00CE74C7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84BB1CD314A4442B00CE74C7 /* ImageTokenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageTokenTests-Info.plist"; sourceTree = "<group>"; };
+		84BB1CD514A4442B00CE74C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84BB1CD714A4442B00CE74C7 /* ImageTokenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTokenTests.h; sourceTree = "<group>"; };
+		84BB1CD814A4442B00CE74C7 /* ImageTokenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTokenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BB1CA514A4442B00CE74C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB1CAD14A4442B00CE74C7 /* UIKit.framework in Frameworks */,
+				84BB1CAF14A4442B00CE74C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB1CC614A4442B00CE74C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB1CCC14A4442B00CE74C7 /* SenTestingKit.framework in Frameworks */,
+				84BB1CCD14A4442B00CE74C7 /* UIKit.framework in Frameworks */,
+				84BB1CCE14A4442B00CE74C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BB1C9D14A4442B00CE74C7 = {
+			isa = PBXGroup;
+			children = (
+				84BB1CB014A4442B00CE74C7 /* ImageToken */,
+				84BB1CD114A4442B00CE74C7 /* ImageTokenTests */,
+				84BB1CAB14A4442B00CE74C7 /* Frameworks */,
+				84BB1CA914A4442B00CE74C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BB1CA914A4442B00CE74C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BB1CA814A4442B00CE74C7 /* ImageToken.app */,
+				84BB1CCA14A4442B00CE74C7 /* ImageTokenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BB1CAB14A4442B00CE74C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84BB1CAC14A4442B00CE74C7 /* UIKit.framework */,
+				84BB1CAE14A4442B00CE74C7 /* Foundation.framework */,
+				84BB1CCB14A4442B00CE74C7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84BB1CB014A4442B00CE74C7 /* ImageToken */ = {
+			isa = PBXGroup;
+			children = (
+				84BB1CB914A4442B00CE74C7 /* ImageAppDelegate.h */,
+				84BB1CBA14A4442B00CE74C7 /* ImageAppDelegate.m */,
+				84BB1CBC14A4442B00CE74C7 /* ImageViewController.h */,
+				84BB1CBD14A4442B00CE74C7 /* ImageViewController.m */,
+				84BB1CBF14A4442B00CE74C7 /* ImageViewController_iPhone.xib */,
+				84BB1CC214A4442B00CE74C7 /* ImageViewController_iPad.xib */,
+				84BB1CB114A4442B00CE74C7 /* Supporting Files */,
+			);
+			path = ImageToken;
+			sourceTree = "<group>";
+		};
+		84BB1CB114A4442B00CE74C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BB1CB214A4442B00CE74C7 /* ImageToken-Info.plist */,
+				84BB1CB314A4442B00CE74C7 /* InfoPlist.strings */,
+				84BB1CB614A4442B00CE74C7 /* main.m */,
+				84BB1CB814A4442B00CE74C7 /* ImageToken-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84BB1CD114A4442B00CE74C7 /* ImageTokenTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BB1CD714A4442B00CE74C7 /* ImageTokenTests.h */,
+				84BB1CD814A4442B00CE74C7 /* ImageTokenTests.m */,
+				84BB1CD214A4442B00CE74C7 /* Supporting Files */,
+			);
+			path = ImageTokenTests;
+			sourceTree = "<group>";
+		};
+		84BB1CD214A4442B00CE74C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84BB1CD314A4442B00CE74C7 /* ImageTokenTests-Info.plist */,
+				84BB1CD414A4442B00CE74C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BB1CA714A4442B00CE74C7 /* ImageToken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BB1CDC14A4442B00CE74C7 /* Build configuration list for PBXNativeTarget "ImageToken" */;
+			buildPhases = (
+				84BB1CA414A4442B00CE74C7 /* Sources */,
+				84BB1CA514A4442B00CE74C7 /* Frameworks */,
+				84BB1CA614A4442B00CE74C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageToken;
+			productName = ImageToken;
+			productReference = 84BB1CA814A4442B00CE74C7 /* ImageToken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84BB1CC914A4442B00CE74C7 /* ImageTokenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BB1CDF14A4442B00CE74C7 /* Build configuration list for PBXNativeTarget "ImageTokenTests" */;
+			buildPhases = (
+				84BB1CC514A4442B00CE74C7 /* Sources */,
+				84BB1CC614A4442B00CE74C7 /* Frameworks */,
+				84BB1CC714A4442B00CE74C7 /* Resources */,
+				84BB1CC814A4442B00CE74C7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84BB1CD014A4442B00CE74C7 /* PBXTargetDependency */,
+			);
+			name = ImageTokenTests;
+			productName = ImageTokenTests;
+			productReference = 84BB1CCA14A4442B00CE74C7 /* ImageTokenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BB1C9F14A4442B00CE74C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 84BB1CA214A4442B00CE74C7 /* Build configuration list for PBXProject "ImageToken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84BB1C9D14A4442B00CE74C7;
+			productRefGroup = 84BB1CA914A4442B00CE74C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BB1CA714A4442B00CE74C7 /* ImageToken */,
+				84BB1CC914A4442B00CE74C7 /* ImageTokenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BB1CA614A4442B00CE74C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB1CB514A4442B00CE74C7 /* InfoPlist.strings in Resources */,
+				84BB1CC114A4442B00CE74C7 /* ImageViewController_iPhone.xib in Resources */,
+				84BB1CC414A4442B00CE74C7 /* ImageViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB1CC714A4442B00CE74C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB1CD614A4442B00CE74C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84BB1CC814A4442B00CE74C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BB1CA414A4442B00CE74C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB1CB714A4442B00CE74C7 /* main.m in Sources */,
+				84BB1CBB14A4442B00CE74C7 /* ImageAppDelegate.m in Sources */,
+				84BB1CBE14A4442B00CE74C7 /* ImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BB1CC514A4442B00CE74C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB1CD914A4442B00CE74C7 /* ImageTokenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84BB1CD014A4442B00CE74C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BB1CA714A4442B00CE74C7 /* ImageToken */;
+			targetProxy = 84BB1CCF14A4442B00CE74C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84BB1CB314A4442B00CE74C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BB1CB414A4442B00CE74C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84BB1CBF14A4442B00CE74C7 /* ImageViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BB1CC014A4442B00CE74C7 /* en */,
+			);
+			name = ImageViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		84BB1CC214A4442B00CE74C7 /* ImageViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BB1CC314A4442B00CE74C7 /* en */,
+			);
+			name = ImageViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		84BB1CD414A4442B00CE74C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84BB1CD514A4442B00CE74C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84BB1CDA14A4442B00CE74C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84BB1CDB14A4442B00CE74C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BB1CDD14A4442B00CE74C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageToken/ImageToken-Prefix.pch";
+				INFOPLIST_FILE = "ImageToken/ImageToken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84BB1CDE14A4442B00CE74C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageToken/ImageToken-Prefix.pch";
+				INFOPLIST_FILE = "ImageToken/ImageToken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84BB1CE014A4442B00CE74C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageToken.app/ImageToken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageToken/ImageToken-Prefix.pch";
+				INFOPLIST_FILE = "ImageTokenTests/ImageTokenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84BB1CE114A4442B00CE74C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageToken.app/ImageToken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageToken/ImageToken-Prefix.pch";
+				INFOPLIST_FILE = "ImageTokenTests/ImageTokenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BB1CA214A4442B00CE74C7 /* Build configuration list for PBXProject "ImageToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BB1CDA14A4442B00CE74C7 /* Debug */,
+				84BB1CDB14A4442B00CE74C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BB1CDC14A4442B00CE74C7 /* Build configuration list for PBXNativeTarget "ImageToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BB1CDD14A4442B00CE74C7 /* Debug */,
+				84BB1CDE14A4442B00CE74C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84BB1CDF14A4442B00CE74C7 /* Build configuration list for PBXNativeTarget "ImageTokenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BB1CE014A4442B00CE74C7 /* Debug */,
+				84BB1CE114A4442B00CE74C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BB1C9F14A4442B00CE74C7 /* Project object */;
+}
